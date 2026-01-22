@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>材料科学 - 太空电梯</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <div class="orange-bar-nav"></div>
+                <span>SPACE ELEVATOR</span>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="index.html" class="nav-link">首页</a></li>
+                <li class="nav-item"><a href="history.html" class="nav-link">历史发展</a></li>
+                <li class="nav-item"><a href="technology.html" class="nav-link">技术原理</a></li>
+                <li class="nav-item"><a href="materials.html" class="nav-link active">材料科学</a></li>
+                <li class="nav-item"><a href="challenges.html" class="nav-link">技术挑战</a></li>
+                <li class="nav-item"><a href="projects.html" class="nav-link">各国计划</a></li>
+                <li class="nav-item"><a href="scifi.html" class="nav-link">科幻作品</a></li>
+                <li class="nav-item"><a href="faq.html" class="nav-link">常见问题</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 页面头部 -->
+    <header class="page-header">
+        <div class="orange-bar"></div>
+        <div class="title-container">
+            <h1 class="main-title">
+                MATERIALS
+                <span class="sub-title">太空电梯的材料科学</span>
+            </h1>
+        </div>
+        <div class="designer-info">
+            突破极限<br>
+            材料的革命
+        </div>
+    </header>
+
+    <!-- 内容区域 -->
+    <section class="content-section">
+        <!-- 材料需求 -->
+        <div class="section-block">
+            <div class="block-header">
+                <div class="orange-bar-small"></div>
+                <h2>缆绳材料的极限挑战</h2>
+            </div>
+            <div class="text-image-layout">
+                <div class="text-content">
+                    <p>太空电梯的可行性关键在于缆绳材料。这条长达10万公里的缆绳需要承受自身重量、货物重量、以及环境应力，同时还要足够轻以减少总质量。材料科学家们计算出，缆绳材料的<strong>强度重量比（比强度）</strong>必须达到：</p>
+                </div>
+                <div class="image-side">
+                    <img src="carbon_nanotube_microscope.jpg" alt="碳纳米管显微镜图像">
+                    <p class="image-caption">碳纳米管电子显微镜图像</p>
+                </div>
+            </div>
+            
+            <div class="requirement-box">
+                <div class="req-title">关键性能指标</div>
+                <div class="req-grid">
+                    <div class="req-item">
+                        <div class="req-label">抗拉强度</div>
+                        <div class="req-value">> 100 GPa</div>
+                        <div class="req-note">（钢铁的50-100倍）</div>
+                    </div>
+                    <div class="req-item">
+                        <div class="req-label">密度</div>
+                        <div class="req-value">< 2 g/cm³</div>
+                        <div class="req-note">（越轻越好）</div>
+                    </div>
+                    <div class="req-item">
+                        <div class="req-label">比强度</div>
+                        <div class="req-value">> 50 GPa/(g/cm³)</div>
+                        <div class="req-note">（决定性指标）</div>
+                    </div>
+                    <div class="req-item">
+                        <div class="req-label">耐久性</div>
+                        <div class="req-value">50+ 年</div>
+                        <div class="req-note">（抗辐射、抗氧化）</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 候选材料对比 -->
+        <div class="section-block">
+            <div class="block-header">
+                <div class="orange-bar-small"></div>
+                <h2>材料对比分析</h2>
+            </div>
+            <div class="materials-comparison">
+                <table class="comparison-table-alt">
+                    <thead>
+                        <tr>
+                            <th>材料</th>
+                            <th>抗拉强度(GPa)</th>
+                            <th>密度(g/cm³)</th>
+                            <th>比强度</th>
+                            <th>可行性</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="failed">
+                            <td><strong>钢铁</strong></td>
+                            <td>0.4 - 2.0</td>
+                            <td>7.8</td>
+                            <td>0.05 - 0.26</td>
+                            <td>❌ 远不达标</td>
+                        </tr>
+                        <tr class="failed">
+                            <td><strong>凯夫拉纤维</strong></td>
+                            <td>3.6</td>
+                            <td>1.44</td>
+                            <td>2.5</td>
+                            <td>❌ 不足</td>
+                        </tr>
+                        <tr class="failed">
+                            <td><strong>碳纤维</strong></td>
+                            <td>3 - 7</td>
+                            <td>1.75</td>
+                            <td>1.7 - 4.0</td>
+                            <td>❌ 不足</td>
+                        </tr>
+                        <tr class="potential">
+                            <td><strong>碳纳米管（理论）</strong></td>
+                            <td>100 - 150</td>
+                            <td>1.3</td>
+                            <td>77 - 115</td>
+                            <td>[✓] 理论达标</td>
+                        </tr>
+                        <tr class="potential">
+                            <td><strong>碳纳米管（实际）</strong></td>
+                            <td>10 - 60</td>
+                            <td>1.3</td>
+                            <td>8 - 46</td>
+                            <td>⚠️ 接近达标</td>
+                        </tr>
+                        <tr class="potential">
+                            <td><strong>石墨烯</strong></td>
+                            <td>130</td>
+                            <td>2.2</td>
+                            <td>59</td>
+                            <td>[✓] 有潜力</td>
+                        </tr>
+                        <tr class="potential">
+                            <td><strong>硼氮纳米管</strong></td>
+                            <td>33 - 100</td>
+                            <td>1.4</td>
+                            <td>24 - 71</td>
+                            <td>⚠️ 研究中</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- 拉力对比（交互） -->
+        <div class="section-block" id="tension-tool">
+            <div class="block-header">
+                <div class="orange-bar-small"></div>
+                <h2>钢缆 vs 碳纳米管：拉力对比</h2>
+            </div>
+            <div class="tool-card">
+                <div class="tool-grid">
+                    <div class="tool-row">
+                        <div class="tool-label-row">
+                            <label class="tool-label" for="tensionDiameter">缆绳直径（毫米）</label>
+                            <span class="tool-value" id="tensionDiameterValue">10.0 mm</span>
+                        </div>
+                        <input class="tool-range" id="tensionDiameter" type="range" min="1" max="100" step="0.5" value="10">
+                    </div>
+                    <div class="tool-row">
+                        <div class="tool-label-row">
+                            <label class="tool-label" for="tensionLoad">载荷质量（吨）</label>
+                            <span class="tool-value" id="tensionLoadValue">10.0 t</span>
+                        </div>
+                        <input class="tool-range" id="tensionLoad" type="range" min="0" max="200" step="0.5" value="10">
+                    </div>
+                </div>
+
+                <div class="tool-note">说明：仅做“抗拉强度 × 截面积”的简化估算，忽略缆绳自重、疲劳、缺陷、动态载荷等工程因素；结果用于直观对比。</div>
+
+                <div class="tool-results">
+                    <div class="tool-result">
+                        <div class="tool-result-label">钢缆（典型强度）</div>
+                        <div class="tool-result-value" id="tensionSteel">—</div>
+                        <div class="tool-result-sub" id="tensionSteelSub">—</div>
+                    </div>
+                    <div class="tool-result">
+                        <div class="tool-result-label">碳纳米管纤维（较乐观实际）</div>
+                        <div class="tool-result-value" id="tensionCNT">—</div>
+                        <div class="tool-result-sub" id="tensionCNTSub">—</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 碳纳米管详解 -->
+        <div class="section-block">
+            <div class="block-header">
+                <div class="orange-bar-small"></div>
+                <h2>碳纳米管：最有希望的材料</h2>
+            </div>
+            
+            <div class="material-detail">
+                <div class="material-showcase">
+                    <div class="material-intro">
+                        <h4>什么是碳纳米管？</h4>
+                        <p>碳纳米管（Carbon Nanotube, CNT）是由石墨烯片卷曲而成的圆柱形纳米材料，直径仅为1-100纳米（人类头发直径的万分之一），但长度可达数厘米甚至更长。它由日本科学家饭岛澄男于1991年发现。</p>
+                    </div>
+                    <div class="material-animation">
+                        <img src="carbon_nanotube_animation.gif" alt="碳纳米管结构动画">
+                        <p class="animation-caption">碳纳米管分子结构示意图</p>
+                    </div>
+                </div>
+
+                <div class="cnt-types">
+                    <h4>碳纳米管的类型</h4>
+                    <div class="cnt-grid">
+                        <div class="cnt-card">
+                            <h5>单壁碳纳米管(SWCNT)</h5>
+                            <div class="cnt-diagram">⭕ 单层</div>
+                            <ul>
+                                <li>直径：0.4-3纳米</li>
+                                <li>强度：最高</li>
+                                <li>制造难度：高</li>
+                                <li>成本：昂贵</li>
+                            </ul>
+                        </div>
+                        <div class="cnt-card">
+                            <h5>多壁碳纳米管(MWCNT)</h5>
+                            <div class="cnt-diagram">⊚ 多层</div>
+                            <ul>
+                                <li>直径：5-100纳米</li>
+                                <li>强度：较高</li>
+                                <li>制造难度：中等</li>
+                                <li>成本：适中</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cnt-properties">
+                    <h4>碳纳米管的卓越性能</h4>
+                    <div class="properties-grid">
+                        <div class="property-item">
+                            <div class="property-icon-text">STR</div>
+                            <h5>超高强度</h5>
+                            <p>理论抗拉强度达100-150 GPa，是钢铁的100倍以上</p>
+                        </div>
+                        <div class="property-item">
+                            <div class="property-icon-text">LGT</div>
+                            <h5>超轻质量</h5>
+                            <p>密度仅1.3 g/cm³，比铝（2.7）还轻一半</p>
+                        </div>
+                        <div class="property-item">
+                            <div class="property-icon-text">EC</div>
+                            <h5>优异导电性</h5>
+                            <p>电导率可达铜的1000倍</p>
+                        </div>
+                        <div class="property-item">
+                            <div class="property-icon-text">TH</div>
+                            <h5>极佳导热性</h5>
+                            <p>热导率超过金刚石</p>
+                        </div>
+                        <div class="property-item">
+                            <div class="property-icon-text">STAB</div>
+                            <h5>化学稳定</h5>
+                            <p>耐腐蚀、抗氧化、耐高温（3000°C以上）</p>
+                        </div>
+                        <div class="property-item">
+                            <div class="property-icon-text">FLEX</div>
+                            <h5>柔韧性</h5>
+                            <p>可弯曲而不断裂，具有"超弹性"</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 制造挑战 -->
+        <div class="section-block">
+            <div class="block-header">
+                <div class="orange-bar-small"></div>
+                <h2>从纳米到宏观：制造的挑战</h2>
+            </div>
+            
+            <div class="manufacturing-challenges">
+                <div class="challenge-card-alt">
+                    <div class="challenge-num">01</div>
+                    <div class="challenge-info">
+                        <h4>长度问题</h4>
+                        <p><strong>现状：</strong>单根碳纳米管的长度目前最长约55厘米（2013年清华大学记录），距离所需的10万公里还有天文数字般的差距。</p>
+                        <p><strong>解决方案：</strong>将数以亿计的碳纳米管编织成缆绳，同时研究"超长碳纳米管"的生长技术。</p>
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 15%"></div>
+                            <span class="progress-label">当前进展：15%</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="challenge-card-alt">
+                    <div class="challenge-num">02</div>
+                    <div class="challenge-info">
+                        <h4>纯度与缺陷</h4>
+                        <p><strong>现状：</strong>实际生产的碳纳米管往往含有杂质、缺陷和不同手性（chirality）的混合，导致强度远低于理论值。</p>
+                        <p><strong>解决方案：</strong>开发精确控制生长条件的技术，实现"完美晶体"级别的碳纳米管批量生产。</p>
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 35%"></div>
+                            <span class="progress-label">当前进展：35%</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="challenge-card-alt">
+                    <div class="challenge-num">03</div>
+                    <div class="challenge-info">
+                        <h4>大规模生产</h4>
+                        <p><strong>现状：</strong>高质量碳纳米管的生产成本极高，目前约为每克数百美元，而太空电梯需要数千吨级别。</p>
+                        <p><strong>解决方案：</strong>化学气相沉积（CVD）技术的规模化，探索更经济的催化剂和碳源。</p>
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 25%"></div>
+                            <span class="progress-label">当前进展：25%</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="challenge-card-alt">
+                    <div class="challenge-num">04</div>
+                    <div class="challenge-info">
+                        <h4>编织与连接</h4>
+                        <p><strong>现状：</strong>将数十亿根纳米管编织成宏观缆绳时，单根之间的连接强度往往成为瓶颈（只有理论强度的10-30%）。</p>
+                        <p><strong>解决方案：</strong>研究分子级键合技术、交联剂、以及仿生编织结构（如蜘蛛丝）。</p>
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 30%"></div>
+                            <span class="progress-label">当前进展：30%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 研究进展 -->
+        <div class="section-block">
+            <div class="block-header">
+                <div class="orange-bar-small"></div>
+                <h2>最新研究进展</h2>
+            </div>
+            
+            <div class="research-timeline">
+                <div class="research-item">
+                    <div class="research-year">2013</div>
+                    <div class="research-content">
+                        <h4>清华大学：55厘米超长碳纳米管</h4>
+                        <p>魏飞教授团队成功制备出半米长的单根碳纳米管，刷新世界纪录。</p>
+                    </div>
+                </div>
+
+                <div class="research-item">
+                    <div class="research-year">2018</div>
+                    <div class="research-content">
+                        <h4>MIT：高纯度碳纳米管薄膜</h4>
+                        <p>开发出纯度达99.9%的单壁碳纳米管材料，强度接近理论值的60%。</p>
+                    </div>
+                </div>
+
+                <div class="research-item">
+                    <div class="research-year">2021</div>
+                    <div class="research-content">
+                        <h4>日本东丽公司：碳纳米管纤维商业化</h4>
+                        <p>成功将碳纳米管纤维应用于航空航天复合材料，成本降低50%。</p>
+                    </div>
+                </div>
+
+                <div class="research-item">
+                    <div class="research-year">2023</div>
+                    <div class="research-content">
+                        <h4>中国科学院：连续生产技术突破</h4>
+                        <p>实现碳纳米管的连续化、规模化生产，产能提升至公斤级/天。</p>
+                    </div>
+                </div>
+
+                <div class="research-item">
+                    <div class="research-year">2025</div>
+                    <div class="research-content">
+                        <h4>国际合作：石墨烯增强复合材料</h4>
+                        <p>结合碳纳米管和石墨烯的优势，开发出比强度超过60 GPa/(g/cm³)的混合材料。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 月球电梯 -->
+        <div class="section-block">
+            <div class="block-header">
+                <div class="orange-bar-small"></div>
+                <h2>月球太空电梯：更容易的起点</h2>
+            </div>
+            
+            <div class="lunar-comparison">
+                <p>相比地球，在月球上建造太空电梯的材料要求要低得多：</p>
+                
+                <div class="comparison-grid-alt">
+                    <div class="comparison-item-alt">
+                        <h4>月球优势</h4>
+                        <ul class="advantage-list">
+                            <li>[✓] 重力仅为地球的1/6</li>
+                            <li>[✓] 无大气层，无风暴、无闪电</li>
+                            <li>[✓] 缆绳长度需求更短</li>
+                            <li>[✓] 现有的凯夫拉纤维即可满足</li>
+                            <li>[✓] 可以作为地球电梯的技术验证</li>
+                        </ul>
+                    </div>
+                    <div class="comparison-item-alt">
+                        <h4>材料要求对比</h4>
+                        <table class="mini-table">
+                            <tr>
+                                <th>参数</th>
+                                <th>地球</th>
+                                <th>月球</th>
+                            </tr>
+                            <tr>
+                                <td>所需比强度</td>
+                                <td>>50</td>
+                                <td>>5</td>
+                            </tr>
+                            <tr>
+                                <td>缆绳长度</td>
+                                <td>100,000 km</td>
+                                <td>~50,000 km</td>
+                            </tr>
+                            <tr>
+                                <td>可用材料</td>
+                                <td>碳纳米管</td>
+                                <td>凯夫拉/碳纤维</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+
+                <div class="lunar-note">
+                    <strong>战略意义：</strong>许多专家建议先在月球上建造第一座太空电梯，积累经验后再挑战地球版本。月球电梯可以大幅降低月球资源（如氦-3）运回地球的成本，为人类太空经济奠定基础。
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 底部信息 -->
+    <footer class="page-footer">
+        <div class="footer-content">
+            <div class="orange-bar-small"></div>
+            <p>材料科学的每一次突破，都让我们离太空电梯的梦想更近一步。</p>
+            <p class="footer-note">本网站仅用于学习展示 · Web前端设计与开发期末作品</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
